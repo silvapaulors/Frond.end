@@ -8,10 +8,9 @@ p {
     
 
 }
-DIV {
+.inicio {
     text-align: center;
     padding: 30px 20px;
-    border: 20px solid #08d6f1;
 }
 body {
     background-color: aqua;
@@ -38,4 +37,37 @@ h2 {
     font-family: verdana;
     font-size: 21px;
     padding-top: 15px;
+}
+.center {
+    max-width: 1100px;
+    padding: 0 2%;
+    display: flex;
+    margin: 0 auto;
+}
+.menu-container {
+    width: 100%;
+    justify-content: space-between;
+}
+header {
+    background-color: rgba(0,0,0,0.6);
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 8px 10px;
+}
+
+.menu-container a.active-menu{
+    background-color: #ec4141;
+}
+.menu-container a{
+    color: white;
+    display: inline-block;
+    margin: 0 10px;
+    padding: 8px 10px;
+    line-height: 40px;
+    transition: 0.8s;
+}
+.menu-container a:hover{
+    color: #ec4141;
 }

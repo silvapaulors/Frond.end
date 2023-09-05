@@ -1,0 +1,39 @@
+body {
+    margin-left: 120px;
+    margin-right: 120px;
+    padding-left: 60px;
+    padding-right: 0;
+    background-color: black;
+}
+.logo {
+    font-family: verdana;
+    font-size: 32px;
+    color: white;
+    text-align: center;
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+.videos {
+    padding: 5px;
+    margin: 5px;
+}
+.internet {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 24px;
+    text-align: center;
+    margin-left: 120px;
+    margin-right: 120px;
+    color: white;
+}
+p {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 18px;
+    color: white;
+}
+a {
+    text-decoration: none;
+    
+}
+.tipo {
+    margin-left: 1000px;
+}
